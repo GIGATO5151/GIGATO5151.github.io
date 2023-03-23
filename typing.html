@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css" media="all"> 
+
+    <title>
+        CAR NAME TYPEING GAME!!
+    </title>
+
+</head>
+
+<body>
+    <div class="characters">
+        <div id="title">
+            <span id="name">TOYOTA CAR VARIATION TYPING GAME!!</span>
+        </div>
+        <div id="rule" > 
+            <p><span id ='any'>5車種のTyping Timeを競いましょう。<br>
+                ★Startを打ち込んだら開始★</span></p> 
+        </div>
+        <div id="TypingSpace">
+            <p><h1><span id="typed"></span><span id="untyped">Start</span></h1></p>
+        </div>    
+    </div>
+
+
+
+        <div class="wrapper">
+            
+            <!-- 計測時間を表示 -->
+            <div id="time">00:00.000</div>
+            <div>
+        
+              <!-- スタート・ストップ・リセットボタン -->
+              <button id="start" onclick="location.reload()">もう一度始める</button>
+              <!--  <button id="stop" onclick="stop()">Stop</button>
+              <button id="reset" onclick="reset()" disabled>Reset</button>
+              -->
+            </div>
+          <div id = "misstype">ミスタイプ数：<span id="miss">0</span></div>
+        </div>
+
+          
+    <script src="typing-s.js"></script>
+
+
+</body>
+
+
+
+</html>
