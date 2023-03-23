@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css" media="all"> 
+
+    <title>
+        WELLCOM TO TYPEING GAME!!
+    </title>
+
+</head>
+
+<body>
+    <div class="intro">
+    <div class = "content">
+
+    <div id = "gamename">WELCOME TO CAR VARIATION TYPING GAME</div>
+    
+    <div>PLEASE WAIT A 10 SECONDS. IT'S NOW LOADING......<div id = "wait">.</div></div>
+
+    </div>
+       
+    <div id = "video-area">
+    <video id = "video" autoplay muted loop>
+    <source src="index-back.mov" >
+    </video>
+    </div>
+    </div>
+
+    <script>
+        //10秒後にリダイレクトする
+        setTimeout(function() {
+            window.location.href = 'typing.html';
+        }, 10000);
+
+
+    </script>
+</body>
